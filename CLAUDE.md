@@ -20,3 +20,9 @@
 
 - 도구: `~/personal/git/.social-tools/` (설정·준비 사항은 그 폴더 README)
 - 게시 전에 반드시 제목·설명·공개 범위를 보여 주고 확인받는다.
+
+## Claude 에이전트 (`.claude/agents/`)
+
+- `script-writer` — 주제 → `ideas/` 에 대본(훅 3개·초 단위 대본·촬영 컷)
+- `caption-writer` — 대본·영상 → `posts/.../caption.json` (플랫폼별 글자 수 제한 지킴, 기본 비공개)
+- `upload-checker` — 올리기 직전 영상·캡션 점검(읽기 전용, ffprobe 있으면 해상도·길이까지)

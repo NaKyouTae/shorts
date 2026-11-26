@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(ffprobe:*)",
+      "Read(~/Movies/shorts/**)"
+    ],
+    "deny": [
+      "Read(~/personal/git/.social-tools/social.env)"
+    ]
+  }
+}
